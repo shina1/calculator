@@ -35,7 +35,9 @@ body{
 .output .vals{
     text-align: end;
     padding: 1rem;
-    color:rgb(132, 139, 139)
+    color:rgb(132, 139, 139);
+    overflow-x: auto;
+    height: auto;
 }
 .topKeys{
     margin-top: 10px;
