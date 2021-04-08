@@ -6,11 +6,13 @@ const clear = document.getElementById("sym-cancel");
 const finalResult = document.querySelector(".result");
 const plus = document.querySelector(".sym-plus");
 const remove = document.querySelector("#remove");
-
+// const cursor = document.querySelector(".cursor").textContent;
+// console.log(cursor);
 finalResult.textContent = 0;
 
 for (let i = 0; i < btn.length; i++) {
   btn[i].addEventListener("click", (e) => {
+    // cursor.style.display = "none";
     vals.textContent += e.target.textContent;
     e.preventDefault();
   });

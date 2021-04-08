@@ -40,6 +40,10 @@ body{
     overflow-x: auto;
     height: auto;
 }
+.box{
+    text-align: end;
+    padding-right: 1.5rem;
+}
 .topKeys{
     margin-top: 10px;
     height: 5rem;
@@ -87,4 +91,55 @@ body{
 .sideKeys .btn{
     margin:15px 10px 15px 25px;
     width: 70%;
+}
+.cursor{
+    color:#fff;
+    font-weight: 100;
+    width: 2%;
+    position: absolute;
+    right:0;
+    top:104px;
+    margin-right: 2.5rem;
+    font-size: 2rem;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to{
+        color: transparent;
+    }
+    50%{
+        color: #fff;
+    }
+}
+
+@-moz-keyframes blink {
+    from, to{
+        color: transparent;
+    }
+    50%{
+        color: #fff;
+    }
+}
+
+@-webkit-keyframes blink {
+    from, to{
+        color: transparent;
+    }
+    50%{
+        color: #fff;
+    }
+}
+
+@-ms-keyframes blink {
+    from, to{
+        color: transparent;
+    }
+    50%{
+        color: #fff;
+    }
 }
